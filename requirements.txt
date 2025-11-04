@@ -1,0 +1,39 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Environment variables (corrige o import "dotenv")
+python-dotenv==1.0.0
+
+#JWT
+bcrypt>=4.0.1
+pyjwt==2.8.0
+
+# HTTP client
+aiohttp==3.9.1
+httpx==0.25.2
+
+pydantic>=2.5.0
+email-validator>=2.0.0
+
+# Utilities
+pydantic==2.5.0
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+python-multipart==0.0.6
+
+# Type hints
+typing-extensions==4.8.0
+
+# Others
+sendgrid==6.9.7
+python-http-client==3.3.7
